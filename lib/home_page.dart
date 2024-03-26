@@ -20,8 +20,23 @@ class HomePage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     SizedBox(height: 180),
-                    Text('tinder',
-                        style: TextStyle(fontSize: 40, color: Colors.white)),
+                    Container(
+                        width: 250,
+                        height: 80,
+                        child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              Image.asset(
+                                'images/tinderlogo.png',
+                                width: 40,
+                                height: 40,
+                              ),
+                              SizedBox(width: 5),
+                              Text('tinder',
+                                  style: TextStyle(
+                                      fontSize: 40, color: Colors.white))
+                            ])),
                     SizedBox(height: 80),
                     Text(
                         'By tapping Create Account or Sign In, you agree to our',
