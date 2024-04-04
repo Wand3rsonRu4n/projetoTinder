@@ -30,11 +30,8 @@ class HomePage extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              Image.asset(
-                                'images/tinder.png',
-                                width: 50,
-                                height: 50,
-                              ),
+                              Image.asset('images/tinder.png',
+                                  width: 50, height: 50),
                               SizedBox(width: 5),
                               Text('tinder',
                                   style: TextStyle(
@@ -54,24 +51,19 @@ class HomePage extends StatelessWidget {
                     ),
                     SizedBox(height: 50),
                     Container(
-                      width: 250,
-                      height: 30,
-                      decoration: BoxDecoration(
-                          border: Border.all(color: Colors.white, width: 2),
-                          borderRadius: BorderRadius.circular(20)),
-                      child: Row(children: [
-                        Image.asset('images/apple.png', width: 20, height: 20),
-                        SizedBox(
-                          width: 55,
-                        ),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('SIGN IN APPLE',
+                        width: 250,
+                        height: 30,
+                        decoration: BoxDecoration(
+                            border: Border.all(color: Colors.white, width: 2),
+                            borderRadius: BorderRadius.circular(20)),
+                        child: Row(children: [
+                          Image.asset('images/apple.png',
+                              width: 20, height: 20),
+                          SizedBox(width: 55),
+                          Text('SIGN IN APPLE',
                               style:
                                   TextStyle(fontSize: 12, color: Colors.white)),
-                        )
-                      ]),
-                    ),
+                        ])),
                     SizedBox(height: 10),
                     Container(
                       width: 250,
@@ -85,13 +77,10 @@ class HomePage extends StatelessWidget {
                         ),
                         Image.asset('images/face.png', width: 18, height: 18),
                         SizedBox(width: 40),
-                        Align(
-                            alignment: Alignment.center,
-                            child: Text(
-                              'SIGN IN WITH FACEBOOK',
-                              style:
-                                  TextStyle(fontSize: 12, color: Colors.white),
-                            ))
+                        Text(
+                          'SIGN IN WITH FACEBOOK',
+                          style: TextStyle(fontSize: 12, color: Colors.white),
+                        )
                       ]),
                     ),
                     SizedBox(height: 10),
@@ -106,13 +95,10 @@ class HomePage extends StatelessWidget {
                         Image.asset('images/messagem.png',
                             width: 20, height: 20),
                         SizedBox(width: 25),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text(
-                            'SIGN IN WITH PHONE NUMBER',
-                            style: TextStyle(fontSize: 12, color: Colors.white),
-                          ),
-                        )
+                        Text(
+                          'SIGN IN WITH PHONE NUMBER',
+                          style: TextStyle(fontSize: 12, color: Colors.white),
+                        ),
                       ]),
                     ),
                     SizedBox(height: 10),
