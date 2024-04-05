@@ -15,14 +15,14 @@ class HomePage extends StatelessWidget {
           height: double.infinity,
           width: double.infinity,
           child: Container(
-              height: 500,
-              width: 300,
+              height: 792,
+              width: 367,
               color: Color.fromARGB(255, 252, 83, 83),
               child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    SizedBox(height: 180),
+                    SizedBox(height: 255),
                     Container(
                         width: 250,
                         height: 80,
@@ -31,32 +31,32 @@ class HomePage extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Image.asset('images/tinder.png',
-                                  width: 50, height: 50),
-                              SizedBox(width: 5),
+                                  width: 70, height: 70),
                               Text('tinder',
                                   style: TextStyle(
-                                      fontSize: 40, color: Colors.white))
+                                      fontSize: 50, color: Colors.white))
                             ])),
-                    SizedBox(height: 80),
+                    SizedBox(height: 130),
                     Text(
                         'By tapping Create Account or Sign In, you agree to our',
-                        style: TextStyle(fontSize: 10, color: Colors.white)),
+                        style: TextStyle(fontSize: 12, color: Colors.white)),
                     Text(
                         'Terms. Learn how we process your data in your Privacy',
-                        style: TextStyle(fontSize: 10, color: Colors.white)),
+                        style: TextStyle(fontSize: 12, color: Colors.white)),
                     Text('policy and Cookies Policy',
-                        style: TextStyle(fontSize: 10, color: Colors.white)),
+                        style: TextStyle(fontSize: 12, color: Colors.white)),
                     SizedBox(
-                      height: 10,
+                      height: 3,
                     ),
-                    SizedBox(height: 50),
+                    SizedBox(height: 40),
                     Container(
-                        width: 250,
-                        height: 30,
+                        width: 320,
+                        height: 45,
                         decoration: BoxDecoration(
                             border: Border.all(color: Colors.white, width: 2),
                             borderRadius: BorderRadius.circular(20)),
                         child: Row(children: [
+                          SizedBox(width: 12),
                           Image.asset('images/apple.png',
                               width: 20, height: 20),
                           SizedBox(width: 55),
@@ -66,14 +66,14 @@ class HomePage extends StatelessWidget {
                         ])),
                     SizedBox(height: 10),
                     Container(
-                      width: 250,
-                      height: 30,
+                      width: 320,
+                      height: 45,
                       decoration: BoxDecoration(
                           border: Border.all(color: Colors.white, width: 2),
                           borderRadius: BorderRadius.circular(20)),
                       child: Row(children: [
                         SizedBox(
-                          width: 4,
+                          width: 12,
                         ),
                         Image.asset('images/face.png', width: 18, height: 18),
                         SizedBox(width: 40),
@@ -85,13 +85,13 @@ class HomePage extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Container(
-                      width: 250,
-                      height: 30,
+                      width: 320,
+                      height: 45,
                       decoration: BoxDecoration(
                           border: Border.all(color: Colors.white, width: 2),
                           borderRadius: BorderRadius.circular(20)),
                       child: Row(children: [
-                        SizedBox(width: 3),
+                        SizedBox(width: 12),
                         Image.asset('images/messagem.png',
                             width: 20, height: 20),
                         SizedBox(width: 25),
@@ -104,7 +104,7 @@ class HomePage extends StatelessWidget {
                     SizedBox(height: 10),
                     Text(
                       'Trouble Signing In?',
-                      style: TextStyle(fontSize: 10, color: Colors.white),
+                      style: TextStyle(fontSize: 1, color: Colors.white),
                     )
                   ]))),
     );
